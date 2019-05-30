@@ -1,0 +1,398 @@
+/* CSS Document */
+
+.icon-group{
+	background:url('images/icons/group.gif') no-repeat;
+}
+.icon-headship{
+	background:url('images/icons/headship.gif') no-repeat;
+}
+.icon-org{
+	background:url('images/icons/org.gif') no-repeat;
+}
+.icon-user{
+	background:url('images/icons/user.gif') no-repeat;
+}
+
+.icon-add{
+	background:url('images/icons/add.gif') no-repeat;
+}
+.icon-edit{
+	background:url('images/icons/edit.gif') no-repeat;
+}
+.icon-del {
+    background:url('images/icons/remove.gif') no-repeat;
+}
+
+.icon-up {
+    background:url('images/icons/up.gif') no-repeat;
+}
+
+.icon-down {
+    background:url('images/icons/down.gif') no-repeat;
+}
+
+.icon-list {
+    background:url('images/icons/list.gif') no-repeat;
+}
+
+.icon-group {
+    background:url('images/icons/group.gif') no-repeat;
+}
+.icon-print {
+    background:url('images/icons/print.png') no-repeat;
+}
+.icon-remove{
+	background:url('images/icons/remove.gif') no-repeat;
+}
+.icon-save{
+	background:url('images/icons/filesave.png') no-repeat;
+}
+.icon-cut{
+	background:url('images/icons/cut.png') no-repeat;
+}
+.icon-ok{
+	background:url('images/icons/ok.png') no-repeat;
+}
+.icon-no{
+	background:url('images/icons/no.png') no-repeat;
+}
+.icon-cancel{
+	background:url('images/icons/cancel.png') no-repeat;
+}
+.icon-reload{
+	background:url('images/icons/reload.png') no-repeat;
+}
+.icon-search{
+	background:url('images/icons/search.png') no-repeat;
+}
+.icon-print{
+	background:url('images/icons/print.png') no-repeat;
+}
+.icon-help{
+	background:url('images/icons/help.png') no-repeat;
+}
+.icon-undo{
+	background:url('images/icons/undo.png') no-repeat;
+}
+.icon-redo{
+	background:url('images/icons/redo.png') no-repeat;
+}
+.icon-back{
+	background:url('images/icons/back.png') no-repeat;
+}
+
+.icon-left{
+	background:url('images/icons/left.gif') no-repeat;
+}
+
+.icon-leftall{
+	background:url('images/icons/leftall.gif') no-repeat;
+}
+
+.icon-right{
+	background:url('images/icons/right.gif') no-repeat;
+}
+
+.icon-rightall{
+	background:url('images/icons/rightall.gif') no-repeat;
+}
+
+.icon-filesave {
+    background:url('images/icons/filesave.png') no-repeat;
+}
+
+
+/*common css*/
+.ystep-container {
+  font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Wenquanyi Micro Hei","Microsoft Yahei",Arial,sans-serif;
+  display: inline-block;
+  position: relative;
+  color: #000;
+}
+.ystep-container ul {
+  list-style: none;
+}
+.ystep-container ul,.ystep-container li,.ystep-container p {
+  margin: 0;
+  padding: 0;
+}
+
+/*size css*/
+.ystep-sm {
+  width: 360px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 1;
+}
+.ystep-lg {
+  width: 700px;
+  height: 60px;
+  font-size: 18px;
+  /*line-height: .3;*/
+}
+
+/*small size css*/
+.ystep-sm .ystep-container-steps {
+  position: absolute;
+  top: 2px;
+  cursor: pointer;
+  z-index: 10;
+}
+.ystep-sm li {
+  float: left;
+  width: 65px;
+  height: 50px;
+}
+.ystep-sm .ystep-step-done {
+  background-position: -119px -76px;
+}
+.ystep-sm .ystep-step-undone {
+  background-position: -60px -76px;
+}
+.ystep-sm .ystep-step-active {
+  background-position: -182px -76px;
+}
+.ystep-sm .ystep-progress {
+  width: 260px;
+  height: 3px;
+  position: absolute;
+  top: 30px;
+  left: 8px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.ystep-sm .ystep-progress-bar {
+  width: 260px;
+  height: 6px;
+  background: #e4e4e4;
+  display: inline-block;
+  float: left;
+}
+.ystep-sm .ystep-progress-highlight {
+  height: 6px;
+	display: block;
+}
+
+/*large size css*/
+.ystep-lg .ystep-container-steps {
+  position: absolute;
+  top: 2px;
+  cursor: pointer;
+  z-index: 10;
+}
+.ystep-lg li {
+  float: left;
+  width: 100px;
+  height: 85px;
+}
+.ystep-lg .ystep-step-done {
+  background-position: -278px -132px;
+}
+.ystep-lg .ystep-step-undone {
+  background-position: -137px -131px;
+}
+.ystep-lg .ystep-step-active {
+  background-position: -414px -131px;
+}
+.ystep-lg .ystep-progress {
+  width: 400px;
+  height: 10px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.ystep-lg .ystep-progress-bar {
+  width: 400px;
+  height: 20px;
+  background: #e4e4e4;
+  display: inline-block;
+  float: left;
+}
+.ystep-lg .ystep-progress-highlight {
+  height: 20px;
+	display: block;
+}
+
+/*green css*/
+.ystep-green .ystep-step-done {
+  background-image: url("images/site/pointes_green.png");
+  background-repeat: no-repeat;
+}
+.ystep-green .ystep-step-undone {
+  background-image: url("images/site/pointes_green.png");
+  background-repeat: no-repeat;
+  color: #9c9a9b;
+}
+.ystep-green .ystep-step-active {
+  background-image: url("images/site/pointes_green.png");
+  background-repeat: no-repeat;
+  color: #3d8e15;
+}
+.ystep-green .ystep-progress-highlight {
+  background: #89bc65;
+}
+
+/*blue css*/
+.ystep-blue .ystep-step-done {
+  background-image: url("images/site/pointes_blue.png");
+  background-repeat: no-repeat;
+}
+.ystep-blue .ystep-step-undone {
+  background-image: url("images/site/pointes_blue.png");
+  background-repeat: no-repeat;
+  color: #9c9a9b;
+}
+.ystep-blue .ystep-step-active {
+  background-image: url("images/site/pointes_blue.png");
+  background-repeat: no-repeat;
+  color: #3276b1;
+}
+.ystep-blue .ystep-progress-highlight {
+  background: #60baff;
+}
+
+
+.menubar_title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 35px;
+    display: block;
+    margin-top: 6px;
+    width: 160px;
+}
+
+
+
+.validation-focus
+{	
+	background:url("images/icons/reg2.gif") no-repeat 0px -1px;
+}
+
+.validation-valid {
+    background: transparent url("images/icons/reg4.gif") no-repeat scroll 0px -1px;
+}
+
+.validation-error {
+    background: transparent url("images/icons/reg3.gif") no-repeat scroll 0px -1px;
+}
+
+
+
+/*系统布局*/
+  #maincontent {
+        height: auto;
+    }
+
+    #header {
+        width: 100%;
+        height: 70px;
+    }
+
+    #side {
+        width: 180px;
+        float: right;
+    }
+
+    #main {
+        height: 200px;
+        width: 100%;
+        float: none;
+    }
+
+    #split {
+        float: left;
+        width: 6px;
+        cursor: pointer;        
+    }
+
+    #split:hover {
+       background-color: #999;
+    }
+
+    #tabcontent {
+       overflow: hidden;
+    }
+
+    #main-content-tabs {
+       overflow: hidden;
+    }
+    #main-content-tabs li .ui-icon-close {
+       float: left;
+       margin: 0.4em 0.2em 0 0;
+       cursor: pointer;
+     }    
+    
+    .left-top_memu {
+        position: relative;
+        background: #EEEEEE;
+    }
+
+    .left-menu {
+        position: relative;
+        background: #EEEEEE;
+        padding-bottom: 8px;
+    }
+
+    .ui-widget-content ul li a {
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    /*左侧样式*/
+    .content_left {      
+        width: 180px;
+        float: left;
+        padding-left: 20px;
+    }
+
+    .global_module {
+        position: relative;      
+        padding-bottom: 5px;
+        width: 160px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+
+    .module_up_down {
+        position: absolute;
+        top: -8px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .global_module h3 {
+        height: 26px;
+        line-height: 26px;
+        text-indent: 6px;
+        margin: 0px;
+        font-size:15px;
+    }
+
+    .global_module div {
+        margin: 0px;
+    }
+
+    .banner_top {
+        background-position: right top;
+        background-image: url("/images/top-gray.gif");
+        background-repeat: no-repeat;
+        height: 50px;
+        
+    }
+
+    .topNav {
+        float:right;        
+        margin-right:8px;
+        margin-top:8px;
+              
+    }
+
+   .topNav a {
+        color:#000000;
+        font-size:12px;
+        text-decoration:none;
+     }
